@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace SlimGis.ShareKit.Winforms
 {
@@ -20,7 +13,7 @@ namespace SlimGis.ShareKit.Winforms
 
         private void QuestionButton_Click(object sender, EventArgs e)
         {
-            Process.Start("http://forums.slimgis.com/");
+            Process.Start("https://forums.slimgis.com/");
         }
 
         private void ContactButton_Click(object sender, EventArgs e)
@@ -30,12 +23,12 @@ namespace SlimGis.ShareKit.Winforms
 
         private void LearnButton_Click(object sender, EventArgs e)
         {
-            Process.Start("http://blog.slimgis.com/");
+            Process.Start("https://blog.slimgis.com/");
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
         {
-            Process.Start("http://www.slimgis.com/");
+            Process.Start("https://www.slimgis.com/");
         }
     }
 }
